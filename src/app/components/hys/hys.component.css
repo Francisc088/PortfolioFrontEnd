@@ -1,0 +1,14 @@
+.row {
+    background-color: rgb(54, 54, 54);
+    padding: 20px;
+    box-shadow: 10px 10px 50px black;
+    box-shadow: ejeX ejeY difumasion color;
+}
+div{
+    color: black;
+    text-shadow: 1px 1px 0px #888888;
+}
+.row:hover {
+    background-image: linear-gradient(to bottom, rgb(37, 37, 37), rgb(54, 54, 54));
+  }
+  

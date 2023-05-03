@@ -1,0 +1,21 @@
+.row {
+    background-image: linear-gradient(to bottom, rgb(54, 54, 54), black);
+    transition: background-image 0.5s ease;
+  }
+  
+  .row:hover {
+    background-image: linear-gradient(to bottom, black, rgb(54, 54, 54));
+  }
+  
+  div {
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  }
+  .footer{
+    display: flex;
+    font-size: 14px;
+    color: whitesmoke;
+    flex-direction: column;
+    text-align: center;
+    
+  }

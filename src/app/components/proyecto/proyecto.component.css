@@ -1,0 +1,19 @@
+.row{
+    padding: 20px;
+    background-color: rgb(54, 54, 54);
+}
+div{
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+.contenedor {
+    width: auto;
+}
+.parte1, .parte2 {
+    display: inline;
+    text-align: justify;
+}
+.img-proyector{
+    box-shadow: 10px 10px 50px black;
+    box-shadow: ejeX ejeY difumasion color;
+}
