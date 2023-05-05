@@ -15,8 +15,10 @@ import { HysComponent } from './components/hys/hys.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import{HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
 @NgModule({
   declarations: [
+    HomeComponent,
     AppComponent,
     HeaderComponent,
     LogoAPComponent,
