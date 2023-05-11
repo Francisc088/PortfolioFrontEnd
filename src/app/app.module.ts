@@ -16,7 +16,7 @@ import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import{HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {  ReactiveFormsModule, FormsModule} from '@angular/forms';
 import { InterceptorProvider } from './service/interceptor-service';
 import { CommonModule } from '@angular/common';
 
@@ -37,7 +37,7 @@ import { CommonModule } from '@angular/common';
     HysComponent,
     ProyectoComponent,
     FooterComponent,
-    
+   
   ],
   imports: [
     BrowserModule,
@@ -48,6 +48,9 @@ import { CommonModule } from '@angular/common';
     ReactiveFormsModule,
     CommonModule
   ],
+
+
+  
   providers: [
     InterceptorProvider
   ],
